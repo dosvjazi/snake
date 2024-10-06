@@ -1,0 +1,46 @@
+\input texinfo
+@settitle Sample Manual 1.0
+
+@copying
+This is information about BrickGame project.
+
+Copyright @copyright{} 2024 free of use.
+@end copying
+
+@titlepage
+@title BrickGame
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@contents
+
+@node Top
+@top GNU Sample
+
+This is information about BrickGame project.
+
+@node BrickGame
+@chapter BrickGame
+
+This is the BrickGame.
+
+@node Tetris
+@section Tetris
+
+In Tetris, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the uncleared lines reach the top of the playing field. The longer the player can delay this outcome, the higher their score will be. In multiplayer games, players must last longer than their opponents; in certain versions, players can inflict penalties on opponents by completing a significant number of lines. Some versions add variations such as 3D displays or systems for reserving pieces.
+
+@node Snake
+@section Snake
+
+Snake is a genre of action video games where the player maneuvers the end of a growing line, often themed as a snake.
+
+The player must keep the snake from colliding with both other obstacles and itself, which gets harder as the snake lengthens. It originated in the 1976 two-player arcade video game Blockade from Gremlin Industries where the goal is to survive longer than the other player. The concept evolved into a single-player variant where a snake gets longer with each piece of food eaten—often apples or eggs. The simplicity and low technical requirements of snake games have resulted in hundreds of versions—some of which have the word snake or worm in the title—for many platforms.
+
+@node Index
+@unnumbered Index
+
+@printindex cp
+
+@bye
